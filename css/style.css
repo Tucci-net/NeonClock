@@ -1,0 +1,33 @@
+/* Diagnostic */
+
+* {
+    outline: 1px dotted darkgray;
+  }
+  
+  body {
+    font-family: 'Tanker', sans-serif;
+    transition: background .5s;
+  
+  }
+  
+  main{
+    font-size: 5rem;
+    display: flexbox;
+    justify-template-columns: 2 1fr;
+    gap: .25em;
+    height:50vh;
+    font-size: 4rem;
+  }
+  .dark {
+    background: hsl(0, 0%, 25%);
+    color: #f5f5f5;
+  }
+  time{
+  display:flexbox;
+  justify-content: center;
+  }
+  /* Layout  */
+  main {
+    width: 1194px;
+    height: 834px;
+  }
