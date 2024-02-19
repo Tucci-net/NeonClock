@@ -64,4 +64,3 @@ const theClockApp = () => {
     ************/
     // Re-run `theClockApp` every 1 second (1000 ms)
     setInterval(theClockApp, 1000);
-    
